@@ -1,0 +1,40 @@
+# Environment and secrets
+.env
+
+# OS files
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# IDE
+.vscode/
+
+# Claude
+.claude/
+
+# Benchmark data and local run outputs
+test_set/
+benchmarks/
+output/
+runs/
+test_output_*/
+
+# Logs and temporary outputs
+*.log
+full_cloud_test.log
+texput.log
+agentic_run*.log
+run_*.log
+prompt_comparison_log.txt
+ablation_temperature*_log.txt
+
+# Test results and summaries
+test_result_*.json
+test_summary_*.json
+cloud_test_summary_*.json
+extra_test_summary_*.json
+test_run_output.log
+refactor_audit.json
